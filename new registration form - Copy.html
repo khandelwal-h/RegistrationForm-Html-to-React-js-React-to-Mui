@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+body{
+font-family:Calibri,Helvetica,sans-serief;
+background-color:pink;
+}
+.container{
+padding:50px;
+background-coor:lightblue;
+}
+input[type=text]:focus,input[type=password]:focus{
+background-color:orange;
+outline:none;
+}
+div{
+padding:10px;
+}
+hr
+{
+border:1px solid #f1f1f1;
+margin-bottom:25px;
+}
+.registerbtn{
+background-color:#4caf50;
+color:white;
+padding:16px 20px;
+margin:8px 0;
+border:none;
+cursor:pointer;
+width:100%;
+opacity:0.9;
+}
+.registerbtn:hover{
+opacity:1;
+}
+
+
+
+</style>
+</head>
+<body>
+<form>
+<div class="container">
+<center><h1>Student Registration Form</h1></center>
+<hr>
+
+<label>firstname</label>
+<input type="text"name="Firstname"placeholder="Firstname"size="15"required/><br><br>
+<label>middlename</label>
+<input type="text"name="middlename"placeholder="Middlename"size="15"required/><br><br>
+<label>lastname</label>
+<input type="text"name="lastname"placeholder="Lastname"size="15"/required><br><br>
+<div>
+<label>
+Course:
+</label>
+<select>
+<option value="course">Course</option>
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="B.TECH">B.TECH</option>
+<option value="MBA">MCA</option>
+<option value="MCA">MCA</option>
+<option value="M.TECH">M.TECH</option>
+</SELECT>
+
+</div>
+<br><br>
+<div>
+<LABEL>
+Gender:
+</label>
+
+<input type="radio"value="male"name="gender"checked/>Male
+<input type="radio"value="female"name="gender"/>female
+<input type="radio"value="other"name="gender"/>other
+</div>
+<br><br>
+<label>
+Phone:
+</label>
+
+<input type="text"name="country code"value="+91"size="2"/>
+<input type="text"name="phone"placeholder="phoneno"size="10"/required>
+Current Address:
+<textarea cols="80"rows="5"placeholder="current Address"value="address"required>
+</textarea>
+
+<br><br>
+
+<label for="email"><b>Email</b></label>
+
+
+<input type="text"placeholder="Enter Email" name="email"required>
+<br><br>
+<label for="psw"><b>password</b></label>
+<input type="password"placeholder="Enter Password"name="psw"required>
+<br><br>
+<label for="psw-repeat"><b>Re-type password</b></label>
+
+<input type="password"placeholder="Retype Password"name="psw-repeat"required>
+<br><br><br><br><br><br><br><button type="Submit"class="registerbtn">Register</button>
+</form>
+</body>
+</html>
+
+
